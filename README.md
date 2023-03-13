@@ -1,6 +1,4 @@
 # E-Commerce-Analysis-through-Google-BigQuery
-
-#Motivation
 This is a BigQuery project that analyzes E-commerce data to provide insights on customer behavior, product performance, and sales trends. The project involves querying large datasets in Google BigQuery, and performing statistical analyses to uncover patterns and trends in the data. It includes a SQL query that retrieves the necessary data from BigQuery and exports it to a CSV file that can be used for further analysis. This project is useful for anyone who wants to learn how to work with BigQuery and how to perform e-commerce data analysis.
 
 # How to Run the Query
