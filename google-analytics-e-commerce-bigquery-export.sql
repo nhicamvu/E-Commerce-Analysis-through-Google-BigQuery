@@ -1,5 +1,5 @@
 --Query 1: Total visit, pageview, transaction for Jan, Feb and March 2017 (order by month)
-SELECT distinct FORMAT_DATE("%Y%m", PARSE_DATE ("%Y%m%d",date)) AS month, -- k cần distinct, vì ở dưới mình group by thì nó cũng sẽ gom lại 1 dòng
+SELECT distinct FORMAT_DATE("%Y%m", PARSE_DATE ("%Y%m%d",date)) AS month,
   SUM(totals.visits) AS visits ,
   SUM(totals.pageviews) AS pageviews, 
   SUM(totals.transactions) AS transactions 
