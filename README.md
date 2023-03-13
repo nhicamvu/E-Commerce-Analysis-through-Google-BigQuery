@@ -7,5 +7,3 @@ This is a BigQuery project that analyzes E-commerce data to provide insights on 
 3. Click "Run Query" to execute the query.
 4. Click "Export" to export the results to a CSV file.
 5. Save the CSV file to your local machine.
-
-<script src="https://gist.github.com/nhicamvu/7782e804ac085b56d9f115efe9935818.js"></script>
